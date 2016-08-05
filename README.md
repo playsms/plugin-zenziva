@@ -10,8 +10,8 @@ Author     | Anton Raharja `<antonrd@gmail.com>`
 Update     | 160805
 Version    | 1.0
 Compatible | playSMS 1.1 and above
-playSMS    | http://playsms.org
-Zenziva    | http://zenziva.com
+playSMS    | https://playsms.org
+Zenziva    | https://zenziva.net
 
 # Installation
 
