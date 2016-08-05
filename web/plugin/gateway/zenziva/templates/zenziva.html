@@ -1,0 +1,19 @@
+{{ DIALOG_DISPLAY }}
+<h2>{{ Manage zenziva }}</h2>
+<form action=index.php?app=main&inc=gateway_zenziva&op=manage_save method=post>
+{{ CSRF_FORM }}
+<table class=playsms-table>
+	<tbody>
+		<tr><td class=label-sizer>{{ Gateway name }}</td><td>zenziva</td></tr>
+		<tr><td>{{ Zenziva URL }}</td><td><input type=text maxlength=250 name=up_url value="{{ zenziva_param_url }}"></td></tr>
+		<tr><td>{{ Userkey }}</td><td><input type=text maxlength=30 name=up_userkey value="{{ zenziva_param_userkey }}"></td></tr>
+		<tr><td>{{ Passkey }}</td><td><input type=password maxlength=30 name=up_passkey value=""> {{ HINT_FILL_PASSWORD }}</td></tr>
+		<!--
+		<tr><td>{{ Module sender ID }}</td><td><input type=text maxlength=16 name=up_module_sender value="{{ zenziva_param_module_sender }}"> {{ HINT_MODULE_SENDER }}</td></tr>
+		-->
+		<tr><td>{{ Module timezone }}</td><td><input type=text size=5 maxlength=5 name=up_datetime_timezone value="{{ zenziva_param_datetime_timezone }}"> {{ HINT_TIMEZONE }}</td></tr>
+	</tbody>
+</table>
+<p><input type=submit class=button value="{{ Save }}">
+</form>
+<p>{{ BUTTON_BACK }}
