@@ -1,6 +1,6 @@
 # plugin-zenziva
 
-playSMS gateway plugin for Zenviza.com Indonesia online SMS gateway provider.
+playSMS gateway plugin for Zenziva.net Indonesia online SMS gateway provider.
 
 Currently focus on Zenziva's SMS Center service only.
 
